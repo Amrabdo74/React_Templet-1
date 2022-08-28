@@ -1,0 +1,70 @@
+/*export const Navbarsection = styled.div`
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #000
+}
+
+if this file is js file
+
+` */
+.navbar {
+    padding: 20px 0;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #000
+}
+
+.navbar .logo {
+    width: 50%;
+    float: left;
+}
+
+.navbar .logo .logo-text{
+    font-size: 30px;
+    font-weight: bold
+}
+.navbar .ul-list {
+    width: 50%;
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar .ul-list .list-item {
+    display: inline-block;
+}
+
+.navbar .ul-list .list-item a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.navbar .ul-list .list-item a:hover {
+    color: #eb5424
+}
+
+@media (max-width : 991px) {
+    .navbar .logo {
+        width: 100%;
+        float: none;
+    }
+    
+    .navbar .ul-list {
+        width: 100%;
+        float:  none;
+        margin-top: 20px;
+        display: none
+    }
+    
+    .navbar .ul-list .list-item {
+        display: block;
+        text-align: center;
+    }
+}
