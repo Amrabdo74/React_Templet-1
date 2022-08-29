@@ -10,6 +10,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Navbar />
+         <Index/>
         <Routes>
         <Route  path='/' element={<Index/> } />
         <Route path='/contact' element={<Contact/>} />
